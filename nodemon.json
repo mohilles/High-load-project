@@ -1,0 +1,8 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "verbose": true,
+  "exec": "ts-node --files",
+  "watch": ["./dist", "./src", "./email-templates", "./locales"],
+  "ext": "ts,js,json,pug"
+}
